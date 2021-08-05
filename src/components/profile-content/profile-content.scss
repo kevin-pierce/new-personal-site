@@ -1,0 +1,20 @@
+.profile-content-wrapper {
+
+    .nav-tabs {
+        min-width:1000px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin:0;
+    }
+
+    .tab-content {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height:400px;
+    }
+}
