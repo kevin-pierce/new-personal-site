@@ -1,0 +1,11 @@
+.index-page-wrapper {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .name-large {
+        font-weight:300;
+        font-size: calc(36px + 3vw)
+    }
+}
