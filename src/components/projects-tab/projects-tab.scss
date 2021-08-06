@@ -1,0 +1,17 @@
+.projects-tab-wrapper {
+    padding-top:5vh;
+    height:100%;
+    width:100%;
+    
+    .projects-wrapper {
+        height:100%;
+        width:100%;
+        display:grid;
+        gap: 20px 20px;
+        grid-template-columns: 320px 320px 320px;
+    }
+
+    .card-body{
+        text-align: left !important;
+    }
+}

@@ -13,14 +13,19 @@ import './index.scss'
 
 const IndexPage = () => {
   return (
-    <div className="index-page-wrapper">
-      <h1 className="name-large">KEVIN PIERCE</h1>
-      <p>2A Software Engineering @uWaterloo</p>
-      <ProfilePicture/>
-      <Button href={ResumePDF} className="btn-lg">Resume</Button>
-      <ProfileContent/>
-      <MediaButtons/>
-    </div>
+    <>
+      <div className="index-page-wrapper">
+        <h1 className="name-large">KEVIN PIERCE</h1>
+        <p>2A Software Engineering @uWaterloo</p>
+        <ProfilePicture/>
+        <Button href={ResumePDF} className="btn-lg">Resume</Button>
+        <ProfileContent/>
+        <MediaButtons/>
+      </div>
+      <div className="index-page-footer">
+        <small>Built with React | Kevin Pierce</small>
+      </div>
+    </>
   )
 }
 
