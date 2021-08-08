@@ -8,16 +8,32 @@ const ProjectsTab = () => {
         <div className="projects-tab-wrapper">
             <h2>Some stuff I've worked on</h2>
             <div className="projects-wrapper">
-                <Card>
-                    <Card.Header>Pathcha</Card.Header>
-                    <Card.Body className="card-body">
-                        <Card.Text>
-                            A data-aggregation and educational Pathology tool that pushes for the digitization of the field.<br/>
-                            Based upon the principal of image-based education and applied learning, Pathcha strives to revolutionalize how we learn and teach Pathology.
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-                <Card>
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
+                            <Card>
+                                <Card.Body className="card-body">
+                                    <Card.Text>
+                                        Pathcha
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                        <div className="flip-card-back">
+                            <Card>
+                                <Card.Header>Pathcha</Card.Header>
+                                <Card.Body className="card-body">
+                                    <Card.Text>
+                                        A data-aggregation and educational Pathology tool that pushes for the digitization of the field.<br/>
+                                        Based upon the principal of image-based education and applied learning, Pathcha strives to revolutionalize how we learn and teach Pathology.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </div>
+                </div>
+               
+                {/* <Card>
                     <Card.Header>Hype4Less</Card.Header>
                     <Card.Body className="card-body">
                         <Card.Text>
@@ -79,7 +95,7 @@ const ProjectsTab = () => {
                             Based upon the principal of image-based education and applied learning, Pathcha strives to revolutionalize how we learn and teach Pathology.
                         </Card.Text>
                     </Card.Body>
-                </Card>
+                </Card> */}
             </div>
         </div>
         

@@ -22,6 +22,7 @@ const IndexPage = () => {
         <ProfileContent/>
         <MediaButtons/>
       </div>
+      <hr/>
       <div className="index-page-footer">
         <small>Built with React | Kevin Pierce</small>
       </div>

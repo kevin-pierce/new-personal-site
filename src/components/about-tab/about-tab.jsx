@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './about-tab.scss'
+
 const AboutTab = () => {
     return (
-        <div className="pt-5">
+        <div className="about-tab-wrapper">
             <h2>Hi there! 👋</h2>
             <div>
                 I'm a second year Software Engineering student at the University of Waterloo, with an <br/>
