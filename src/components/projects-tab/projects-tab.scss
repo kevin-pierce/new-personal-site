@@ -14,6 +14,16 @@
           font-weight:1000;
         }
 
+        .icon-wrapper {
+          position: absolute;
+          margin: auto;
+          left: 0;
+          right: 0;
+          text-align: center;
+          z-index: 1;
+          bottom:21px;
+        }
+
         .flip-card {
             background-color: transparent;
             width: 320px;
@@ -49,7 +59,14 @@
 
           .flip-card-front{
               color: #FFF;
-              text-align: center;
+              
+              .card-body {
+                text-align: center !important;
+                line-height:277px;
+                font-weight:700;
+                font-size: 20px;
+              }
+              
 
               #pathcha {
                 background-color: #4B245A;

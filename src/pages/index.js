@@ -19,8 +19,8 @@ const IndexPage = () => {
         <p>2A Software Engineering @uWaterloo</p>
         <ProfilePicture/>
         <Button href={ResumePDF} className="btn-lg">Resume</Button>
-        <ProfileContent/>
         <MediaButtons/>
+        <ProfileContent/>
       </div>
       <hr/>
       <div className="index-page-footer">
