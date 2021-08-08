@@ -10,6 +10,10 @@
         gap: 20px 20px;
         grid-template-columns: 320px 320px 320px;
 
+        strong {
+          font-weight:1000;
+        }
+
         .flip-card {
             background-color: transparent;
             width: 320px;
@@ -45,8 +49,39 @@
 
           .flip-card-front{
               color: #FFF;
-              background-color: #4B245A;
               text-align: center;
+
+              #pathcha {
+                background-color: #4B245A;
+              }
+
+              #hype-4-less{
+                  background-color: #e06666ff;
+              }
+
+              #my-board{
+                background-color: #333333;
+              }
+              
+              #covid-bot {
+                  background-color: #999999;
+              }
+
+              #foodprint {
+                background-color: #F6B26B;
+              }
+
+              #simpad {
+                background-color: #555555;
+              }
+
+              #uweacc {
+                background-color: #682A96;
+              }
+
+              #labyrinth {
+                background-color: #000;
+              }
           }
           
           /* Style the back side */
