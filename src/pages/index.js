@@ -18,13 +18,13 @@ const IndexPage = () => {
         <h1 className="name-large">KEVIN PIERCE</h1>
         <p>2A Software Engineering @uWaterloo</p>
         <ProfilePicture/>
-        <Button href={ResumePDF} className="btn-lg">Resume</Button>
+        <Button href={ResumePDF} className="btn-lg mt-5 mb-5">Resume</Button>
         <MediaButtons/>
         <ProfileContent/>
       </div>
       <hr/>
       <div className="index-page-footer">
-        <small>Built with React | Kevin Pierce</small>
+        <small>Built with <a href="https://reactjs.org/">React</a> | <a href="https://bootswatch.com/lux/">Lux Theme</a> by <a href="https://thomaspark.co/">Thomas Park</a></small>
       </div>
     </>
   )

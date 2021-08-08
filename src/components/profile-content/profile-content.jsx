@@ -9,7 +9,7 @@ import './profile-content.scss'
 
 const ProfileContent = () => {
     return (
-        <div className="profile-content-wrapper">
+        <div className="profile-content-wrapper mt-5">
         <Tabs
             fill
             justify
@@ -23,9 +23,9 @@ const ProfileContent = () => {
             <Tab eventKey="projects" title="Projects">
                 <ProjectsTab/>
             </Tab>
-            <Tab eventKey="contact" title="Contact">
+            {/* <Tab eventKey="contact" title="Contact">
                 tab3
-            </Tab>
+            </Tab> */}
         </Tabs>
         </div>
     )
