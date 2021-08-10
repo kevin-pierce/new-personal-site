@@ -18,7 +18,7 @@ const IndexPage = () => {
         <h1 className="name-large">KEVIN PIERCE</h1>
         <p>2A Software Engineering @uWaterloo</p>
         <ProfilePicture/>
-        <Button href={ResumePDF} className="btn-lg mt-5 mb-5">Resume</Button>
+        <Button href={ResumePDF} className="btn-lg mt-5 mb-5" style={{paddingTop:"18px", paddingBottom:"18px"}}>Resume</Button>
         <MediaButtons/>
         <ProfileContent/>
       </div>
