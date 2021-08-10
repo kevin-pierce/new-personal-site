@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://kevin-pierce.me/",
     title: "Kevin Pierce",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: ["gatsby-plugin-sass",
+            "gatsby-plugin-react-helmet",
+  ],
 };

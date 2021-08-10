@@ -1,7 +1,9 @@
-import * as React from "react"
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import "bootswatch/dist/lux/bootstrap.min.css";
 import { Button, Tabs, Tab } from 'react-bootstrap';
 import ResumePDF from '../../static/kevin-pierce-resume-new.pdf';
+import Favicon from '../images/KP-favicon.ico';
 
 // Components
 import ProfilePicture from "../components/profile-picture/profile-picture";
@@ -14,6 +16,11 @@ import './index.scss'
 const IndexPage = () => {
   return (
     <>
+      <Helmet>
+        <title>Kevin Pierce</title>
+        <link rel="icon" type="image/png" href={Favicon}/>
+      </Helmet>
+
       <div className="index-page-wrapper">
         <h1 className="name-large">KEVIN PIERCE</h1>
         <p>2A Software Engineering @uWaterloo</p>
