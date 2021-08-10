@@ -24,7 +24,7 @@ const ProjectsTab = () => {
                                 <Card.Header>Pathcha</Card.Header>
                                 <Card.Body className="card-body">
                                     <Card.Text>
-                                        A data-aggregation and educational Pathology tool that pushes for the digitization of the field.
+                                        A data-aggregation and educational <strong>pathology</strong> tool that pushes for the digitization of the field.
                                         Based upon the principal of image-based education and applied learning, Pathcha strives to revolutionalize how we learn and teach Pathology.
                                     </Card.Text>
                                     <div class="icon-wrapper">
@@ -55,7 +55,7 @@ const ProjectsTab = () => {
                                 <Card.Header>Hype4Less</Card.Header>
                                 <Card.Body className="card-body">
                                     <Card.Text>
-                                        The Trivago of shoes. Powered by a Selenium-based webscraper, Hype4Less connects Sneakerheads to the best deals on their favourite footwear products.
+                                        The Trivago of shoes. Powered by a Selenium-based webscraper, Hype4Less connects sneakerheads to the best deals on their favourite footwear products.
                                         Currently scrapes Nike, Adidas, Footlocker, and The Running Room (Canada only).
                                     </Card.Text>
                                     <div class="icon-wrapper">
