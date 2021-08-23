@@ -1,6 +1,6 @@
 import React from 'react';
 import './profile-picture.scss';
-import ProfilePic from '../../../static/profile-pic.jpeg';
+import ProfilePic from '../../../static/kp-profile-picture.jpeg';
 
 const ProfilePicture = () => {
     return (
