@@ -8,7 +8,9 @@ const AboutTab = () => {
             <h2>Oh, hey there!</h2>
             <div>
                 I'm a second year Software Engineering student at the University of Waterloo, with an <br/>
-                    interest in fullstack development. Currently, I'm working as a Front-End Software Engineer at TRIYOSoft. 
+                    interest in full stack development. 
+                    <br/><br/>
+                    Previously, I've worked as a Software Engineer at <a href="https://triyosoft.com/">TRIYOSoft</a>. 
                     <br/><br/>
                     Outside of work, I enjoy biking, drawing, and collecting sneakers.
                     <br/><br/><br/>
