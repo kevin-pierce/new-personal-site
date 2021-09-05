@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import "bootswatch/dist/lux/bootstrap.min.css";
 import { Button, Tabs, Tab } from 'react-bootstrap';
-import ResumePDF from '../../static/kp-2a-resume.pdf';
+import ResumePDF from '../../static/kp-resume.pdf';
 import Favicon from '../images/KP-favicon.ico';
 
 // Components
