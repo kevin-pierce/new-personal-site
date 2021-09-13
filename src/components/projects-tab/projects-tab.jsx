@@ -117,7 +117,7 @@ const ProjectsTab = () => {
                                 <Card.Header>Go Spotify Playlist Builder</Card.Header>
                                 <Card.Body className="card-body">
                                     <Card.Text>
-                                    A Golang CLI Application for building Spotify playlists based on Billboard Top 100 charts. Currently supports use for Billboard Hot 100 Chart. 
+                                    A Golang CLI Application for building Spotify playlists based on Billboard Top 100 charts. Currently supports use for the Billboard Hot 100 Chart. 
                                     <br/><br/>
                                     Must be authorized on Spotify Developer console to use. 
                                     </Card.Text>
