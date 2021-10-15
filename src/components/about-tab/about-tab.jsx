@@ -14,7 +14,9 @@ const AboutTab = () => {
                     <br/><br/>
                     Outside of work, I enjoy biking, drawing, and collecting sneakers.
                     <br/><br/><br/>
-                <h3>🔎🕵️ Currently, I'm on the hunt for internship opportunities for Winter 2022<br/>If interested, feel free to contact me <a href="https://www.linkedin.com/in/kwpierce/s">here</a>.</h3>
+                {
+                    //<h3>🔎🕵️ Currently, I'm on the hunt for internship opportunities for Winter 2022<br/>If interested, feel free to contact me <a href="https://www.linkedin.com/in/kwpierce/s">here</a>.</h3>
+                }
             </div>
         </div>
     )
