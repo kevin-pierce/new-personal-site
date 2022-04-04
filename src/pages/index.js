@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import "bootswatch/dist/lux/bootstrap.min.css";
 import { Button, Tabs, Tab } from 'react-bootstrap';
-import ResumePDF from '../../static/kevin-pierce-resume-2B-v1.pdf';
+import ResumePDF from '../../static/KevinPierce_2B_Resume_V2.pdf';
 import Favicon from '../images/KP-favicon.ico';
 
 // Components
@@ -31,7 +31,7 @@ const IndexPage = () => {
       </div>
       <hr/>
       <div className="index-page-footer">
-        <small>Built with <a href="https://reactjs.org/">React</a> | <a href="https://bootswatch.com/lux/">Lux Theme</a> by <a href="https://thomaspark.co/">Thomas Park</a></small>
+        <small>Built with <a href="https://reactjs.org/">React</a></small>
       </div>
     </>
   )
