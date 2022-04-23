@@ -23,7 +23,7 @@ const IndexPage = () => {
 
       <div className="index-page-wrapper">
         <h1 className="name-large">KEVIN PIERCE</h1>
-        <p>Incoming 2B Software Engineering @uWaterloo</p>
+        <p>2B Software Engineering @uWaterloo</p>
         <ProfilePicture/>
         <Button href={ResumePDF} className="btn-lg mt-5 mb-5" style={{paddingTop:"18px", paddingBottom:"18px"}}>Resume</Button>
         <MediaButtons/>
