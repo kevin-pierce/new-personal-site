@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import "bootswatch/dist/lux/bootstrap.min.css";
-import { Button, Tabs, Tab } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import ResumePDF from '../../static/Kevin_Pierce_2B_Resume.pdf';
 import Favicon from '../images/KP-favicon.ico';
 
@@ -23,7 +23,7 @@ const IndexPage = () => {
 
       <div className="index-page-wrapper">
         <h1 className="name-large">KEVIN PIERCE</h1>
-        <p>2B Software Engineering @uWaterloo</p>
+        <p>3A Software Engineering @uWaterloo</p>
         <ProfilePicture/>
         <Button href={ResumePDF} className="btn-lg mt-5 mb-5" style={{paddingTop:"18px", paddingBottom:"18px"}}>Resume</Button>
         <MediaButtons/>
