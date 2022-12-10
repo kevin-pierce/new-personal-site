@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import "bootswatch/dist/lux/bootstrap.min.css";
 import { Button } from 'react-bootstrap';
-import ResumePDF from '../../static/KevinPierce_3A.pdf';
+import ResumePDF from '../../static/Kevin_Pierce_Resume.pdf';
 import Favicon from '../images/KP-favicon.ico';
 
 // Components
